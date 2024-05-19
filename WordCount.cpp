@@ -20,7 +20,7 @@ int main(int argc, char* argv[]) {
     // 打开文件
     FILE* file = fopen(argv[2], "r");
     if (file == NULL) {
-        printf("Could not open file %s\n", argv[2]);
+        printf("文件打开失败 %s\n", argv[2]);
         return 1;
     }
 
